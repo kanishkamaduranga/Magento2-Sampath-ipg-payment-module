@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        
+        <payment>
+            <sampathpaycorp>
+                <active>1</active>
+                <title>Sampath payment gateway</title>
+                <order_status>pending_payment</order_status>
+                <instructions>Instruction.</instructions>
+                <payment_action>true</payment_action>
+                <model>Elaboom\Sampath\Model\SampathPaycorp</model>
+                <group>offline</group>
+            </sampathpaycorp>
+            <!-- payment-config -->
+
+
+            <sampathpaycorp6>
+                <active>1</active>
+                <title>Sampath 6 Month instalment </title>
+                <order_status>pending_payment</order_status>
+                <instructions>Instruction.</instructions>
+                <payment_action>true</payment_action>
+                <model>Elaboom\Sampath\Model\SampathPaycorp6</model>
+                <group>offline</group>
+            </sampathpaycorp6>
+
+            <sampathpaycorp12>
+                <active>1</active>
+                <title>Sampath 12 Month instalment </title>
+                <order_status>pending_payment</order_status>
+                <instructions>Instruction.</instructions>
+                <payment_action>true</payment_action>
+                <model>Elaboom\Sampath\Model\SampathPaycorp12</model>
+                <group>offline</group>
+            </sampathpaycorp12>
+
+            <sampathpaycorp24>
+                <active>1</active>
+                <title>Sampath 24 Month instalment </title>
+                <order_status>pending_payment</order_status>
+                <instructions>Instruction.</instructions>
+                <payment_action>true</payment_action>
+                <model>Elaboom\Sampath\Model\SampathPaycorp24</model>
+                <group>offline</group>
+            </sampathpaycorp24>
+
+            <sampathpaycorp40>
+                <active>1</active>
+                <title>Sampath 40 Month instalment </title>
+                <order_status>pending_payment</order_status>
+                <instructions>Instruction.</instructions>
+                <payment_action>true</payment_action>
+                <model>Elaboom\Sampath\Model\SampathPaycorp40</model>
+                <group>offline</group>
+            </sampathpaycorp40>
+
+        </payment>
+    </default>
+</config>

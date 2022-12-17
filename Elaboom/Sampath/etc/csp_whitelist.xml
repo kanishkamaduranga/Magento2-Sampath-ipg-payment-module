@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+                <value id="paycorp_payments" type="host">*.paycorp.lk/webinterface/qw/paycorp_payments.js</value>
+            </values>
+        </policy>
+        <policy id="connect-src">
+            <values>
+                <value id="paycorp_payments_connect" type="host">https://*paycorp_payments.js</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>
